@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+}
+
+#dashboard {
+    height: 175vmin;
+    width: 175vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+
+.reviews {
+    background-color: gray
+}
+
+.analysis {
+    background-color: red;
+}
+
+.sidebar {
+    background-color: green;
+}
+
+.visitors {
+    background-color: hotpink;
+}
+
+.rating {
+    background-color: indigo;
+}

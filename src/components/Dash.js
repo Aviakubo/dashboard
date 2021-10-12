@@ -7,10 +7,10 @@ import WebsiteVisitors from './WebsiteVisitors';
 function Dash(props) {
   return (
     <div id='dashboard'>
+        <Sidebar />
         <AverageRating />
         <Reviews />
         <SentimentAnalysis />
-        <Sidebar />
         <WebsiteVisitors />
     </div>
   );

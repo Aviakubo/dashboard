@@ -1,7 +1,8 @@
 function AverageRating(props) {
     return (
       <div className='rating'>
-        Average Rating
+        <h4>Average Rating</h4>
+        <p>4.6</p>
       </div>
     );
   }
